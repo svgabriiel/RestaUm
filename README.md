@@ -120,7 +120,6 @@ O jogo salva automaticamente os melhores resultados no arquivo `recordes.txt`.
 |-----------------|----------------------------|
 | **C / C++**     | Lógica principal do jogo   |
 | **Raylib**      | Renderização gráfica 2D    |
-| **MinGW / g++** | Compilação no Windows      |
 
 ---
 
