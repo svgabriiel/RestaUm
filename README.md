@@ -22,18 +22,27 @@
 
 <div align="center">
 
-<!-- ===== COLOQUE AQUI A IMAGEM DA TELA INICIAL DO JOGO ===== -->
-> 📷 *[Imagem — Tela Inicial / Menu]*
+<p align="center">
+  <p align = "center">  # Inicio <p/>
+  <img src="assets/capa.png" width="500">
+</p>
+
 
 ---
 
-<!-- ===== COLOQUE AQUI A IMAGEM DO TABULEIRO DURANTE O JOGO ===== -->
-> 📷 *[Imagem — assets/meio.pgm]*
+<p align="center">
+     <p align = "center"> # Durante o Jogo <p/>
+  <img src="assets/meio.png" width="500">
+</p>
 
 ---
 
-<!-- ===== COLOQUE AQUI A IMAGEM DA TELA DE VITÓRIA OU GAME OVER ===== -->
-> 📷 *[Imagem — Tela de Fim de Jogo / Recorde]*
+
+<p align="center">
+   <p align = "center"> # Finalizando <p/>
+  <img src="assets/duasPecas.png" width="500">
+</p>
+
 
 </div>
 
