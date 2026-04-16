@@ -5,13 +5,14 @@ class Programa{
     public:
     static void rum(){
 
+
+
         InitWindow(screenWidth, screenHeight, "RESTA UM - 60FPS");
 
         StateJogo jogo = main_Menu;
         int j_inicial;
         int i_inicial;
         
-    
         while (!WindowShouldClose())
         {
             SetTargetFPS(60);

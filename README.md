@@ -28,7 +28,7 @@
 ---
 
 <!-- ===== COLOQUE AQUI A IMAGEM DO TABULEIRO DURANTE O JOGO ===== -->
-> 📷 *[Imagem — Tabuleiro em Jogo]*
+> 📷 *[Imagem — assets/meio.pgm]*
 
 ---
 

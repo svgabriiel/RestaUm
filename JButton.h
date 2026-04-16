@@ -60,13 +60,12 @@ private:
     std::function<void()> evento;
 
 public:
-    // 👇 NÃO é static
+ 
     bool verificaClic() {
         Vector2 mouse = GetMousePosition();
         return IsMouseButtonPressed(MOUSE_BUTTON_LEFT) &&
-                CheckCollisionPointRec(mouse, pos) || 
-                IsMouseButtonDown(MOUSE_BUTTON_LEFT) &&  
                 CheckCollisionPointRec(mouse, pos);
+              
     }
 
     void addAcionarEvento(std::function<void()> f) {
@@ -77,9 +76,6 @@ public:
         
     }
 
-    void update() {
-       
-    }
 };
 
 JButton::JButton(std::string n)

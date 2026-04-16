@@ -133,76 +133,71 @@ void Emblema(void)
 
 void Titulo(void)
 {
-    int size =15;
+    
     DrawText("----- RESTA UM -----", screenWidth / 3, 50, 30, corPeca);
 
     if (locateButton(resetButton))
-    {
-        // size++;
-        borda = expandRectangle(resetButton, size);
+    {  
+        borda = expandRectangle(resetButton, 5);
         DrawRectangleRec(borda, GREEN);
-        size++;
+        5;
     }
 
     if (locateButton(themeButton))
     {
-        // size--;
-        borda = expandRectangle(themeButton, size);
+        borda = expandRectangle(themeButton, 5);
         DrawRectangleRec(borda, GREEN);
-        size--;
     }
 
     DisplayTimer();
 
     if (!jogadaValida(tabuleiro))
     {
-        if (restaPart == 1)
-        {   
+        if (restaPart == 1){   
             salvarRecorde();
             if(!DisplayTimer())
             DrawText("!!! VITORIA !!!", 100, 50, 30, RED);
         }
-        else
-        {
+        else{    
+            if(!DisplayTimer())
             DrawText("FIM DE JOGO", screenWidth / 3 + 30, 2, 40, RED);
             DrawText(TextFormat("Restaram: %d", restaPart), 25, 70, 30, corPeca);
         }
     }
-    else jaSalvou= false; // add
-
+    else jaSalvou= false; 
     DrawRectangleRec(resetButton, corBotao);
     DrawRectangleRec(themeButton, corBotao);
     DrawText("RESET", 835, 615, 20, BLACK);
     DrawText("TEMA", 45, 615, 20, BLACK);
 }
+int mim, seg; // global
+int  DisplayTimer(void){
 
+        bool fimJogo = jogadaValida(tabuleiro);
 
-int DisplayTimer(void)
-{
-    int mim, seg;
+    if (fimJogo){
+        timeElapsed = GetTime() - startTime;
+        minutos = (int)timeElapsed / 60;
+        segundos = (int)timeElapsed % 60;
 
-    timeElapsed = GetTime() - startTime;
-    bool valida = jogadaValida(tabuleiro);
-
-    if (valida) {
-        mim = (int)timeElapsed / 60;
-        seg = (int)timeElapsed % 60;
+        sprintf(textoTimer, "Tempo: %02d:%02d", minutos, segundos);
+        DrawText(textoTimer, 675, 20, 25, corTime);
+        mim = minutos, seg = segundos;
     }
+    if (!fimJogo){
+        timeElapsed = GetTime() - startTime;
+        segundos = (int)timeElapsed % 60;
 
-    int exibMin = valida ? mim : (int)timeElapsed / 60;
-    int exibSeg = valida ? seg : (int)timeElapsed % 60;
-
-    sprintf(textoTimer, "Tempo: %02d:%02d", exibMin, exibSeg);
-    DrawText(textoTimer, 675, 20, 25, corTime);
-
-    if (valida && ((int)timeElapsed & 1))
-        return 1;
-
-    return 0;
+      if(!(segundos & 1)){  
+        sprintf(textoTimer, "Tempo: %02d:%02d", mim, seg);
+        DrawText(textoTimer, 675, 20, 25, corTime);
+        return 0;
+        }
+        else return 1;
+    }
+    return 1;
 }
-
-void salvarRecorde(void)//add
-{
+void salvarRecorde(void){
      
     if (jaSalvou) return;
 
