@@ -170,7 +170,7 @@ void Titulo(void)
     DrawText("RESET", 835, 615, 20, BLACK);
     DrawText("TEMA", 45, 615, 20, BLACK);
 }
-int mim, seg; // global
+int mim, seg; // globalv
 int  DisplayTimer(void){
 
         bool fimJogo = jogadaValida(tabuleiro);

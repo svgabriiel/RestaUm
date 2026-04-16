@@ -1,7 +1,6 @@
- <p align = "center">
-    <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=50&pause=1000&color=00F7FF&center=true&vCenter=true&width=2000&lines=Resta+Um" />
-
- </p>
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=50&pause=1000&color=00F7FF&center=true&vCenter=true&width=2000&lines=Resta+Um" />
+</p>
 
 # ♟️ Resta Um
 
@@ -23,26 +22,23 @@
 <div align="center">
 
 <p align="center">
-  <p align = "center">  # Inicio <p/>
+  <p align="center"># Inicio</p>
   <img src="assets/capa.png" width="500">
 </p>
-
 
 ---
 
 <p align="center">
-     <p align = "center"> # Durante o Jogo <p/>
+  <p align="center"># Durante o Jogo</p>
   <img src="assets/meio.png" width="500">
 </p>
 
 ---
 
-
 <p align="center">
-   <p align = "center"> # Finalizando <p/>
+  <p align="center"># Finalizando</p>
   <img src="assets/duasPecas.png" width="500">
 </p>
-
 
 </div>
 
@@ -69,8 +65,6 @@
 ---
 
 ## 🗂️ Estrutura do Projeto
-
-```
 RestaUm/
 │
 ├── main.cpp           # Ponto de entrada do programa
@@ -81,18 +75,7 @@ RestaUm/
 ├── JButton.h          # Componente de botão customizado
 ├── recordes.txt       # Arquivo de recordes salvos
 └── RestaUm.exe        # Executável compilado (Windows)
-```
 
----
-
-## 🚀 Como Executar
-
-### ▶️ Executável direto (Windows)
-
-Basta rodar o arquivo:
-```
-RestaUm.exe
-```
 
 ### 🔧 Compilando do zero
 
@@ -107,89 +90,52 @@ g++ main.cpp front.cpp back.cpp -o RestaUm -lraylib -lopengl32 -lgdi32 -lwinmm
 
 ---
 
-
-## 🏆 Sistema de Recordes
-
-O jogo salva automaticamente os melhores resultados no arquivo `recordes.txt`.
-
-## 🛠️ Tecnologias Utilizadas
-
-| Tecnologia | Uso |
-|------------|-----|
-| **C / C++** | Lógica principal do jogo |
-| **Raylib** | Renderização gráfica 2D |
-| **MinGW / g++** | Compilação no Windows |
-
----
- 
-## 🚀 Como Executar
- 
-### ▶️ Executável direto (Windows)
- 
-Basta rodar o arquivo:
-```
-RestaUm.exe
-```
- 
-### 🔧 Compilando do zero
- 
-**Pré-requisitos:**
-- Compilador `g++` (MinGW recomendado no Windows)
-- Biblioteca [Raylib](https://www.raylib.com/) instalada
-**Comando de compilação:**
-```bash
-g++ main.cpp front.cpp back.cpp -o RestaUm -lraylib -lopengl32 -lgdi32 -lwinmm
-```
- 
----
- 
 ## 🕹️ Como Jogar
- 
-<!-- ===== COLOQUE AQUI UM GIF OU IMAGEM MOSTRANDO O GAMEPLAY ===== -->
+
 > 📷 *[GIF ou Imagem — Demonstração do Gameplay]*
- 
+
 1. **Clique** em uma peça para selecioná-la (ela ficará destacada)
 2. **Clique** na casa de destino (deve ser um salto válido sobre outra peça)
 3. A peça do meio é **removida automaticamente**
 4. Repita até não haver mais movimentos possíveis
 5. Quando **sobrar uma peça**, Vitória!
+
 ---
- 
+
 ## 🏆 Sistema de Recordes
- 
+
 O jogo salva automaticamente os melhores resultados no arquivo `recordes.txt`.
- 
-| 🥇 Posição | 👤 Jogador | ⏱️ Tempo          |
-|:-----------:|:----------:|:-----------------:|
-| 1º          | A          |       0:30        |
-| 2º          | B          |       0:40        |
-| 3º          | C          |       1:12        |
- 
+
+| 🥇 Posição | 👤 Jogador | ⏱️ Tempo |
+|:-----------:|:----------:|:---------:|
+| 1º          | A          | 0:30      |
+| 2º          | B          | 0:40      |
+| 3º          | C          | 1:12      |
+
 ---
- 
+
 ## 🛠️ Tecnologias Utilizadas
- 
-| Tecnologia | Uso |
-|------------|-----|
-| **C / C++** | Lógica principal do jogo |
-| **Raylib** | Renderização gráfica 2D |
-| **MinGW / g++** | Compilação no Windows |
- 
+
+| Tecnologia      | Uso                        |
+|-----------------|----------------------------|
+| **C / C++**     | Lógica principal do jogo   |
+| **Raylib**      | Renderização gráfica 2D    |
+| **MinGW / g++** | Compilação no Windows      |
+
 ---
- 
- 
+
 ## 👥 Equipe
- 
+
 Projeto desenvolvido em grupo acadêmico por:
- 
+
 | Integrante | GitHub |
 |------------|--------|
 | Nome 1 | [@username1](https://github.com/username1) |
 | Nome 2 | [@username2](https://github.com/username2) |
 | Nome 3 | [@username3](https://github.com/username3) |
 | Nome 4 | [@username4](https://github.com/username4) |
- 
-<!-- ===== SUBSTITUA OS comentários acima pelos nomes e @ do GitHub de cada integrante ===== -->
+
+---
 
 ## 📄 Licença
 

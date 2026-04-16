@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "Executar RestaUm",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "C:\\projetosPessoal\\RestaUm_\\output\\RestaUm.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerPath": "C:/mingw64/bin/gdb.exe",
+            "preLaunchTask": "Build RestaUm"
+        }
+    ]
+}
