@@ -129,10 +129,10 @@ Projeto desenvolvido em grupo acadêmico por:
 
 | Integrante | GitHub |
 |------------|--------|
-| Nome 1 | [@username1](https://github.com/username1) |
-| Nome 2 | [@username2](https://github.com/username2) |
-| Nome 3 | [@username3](https://github.com/username3) |
-| Nome 4 | [@username4](https://github.com/username4) |
+| Gabriel Bispo|  |
+| Anderson Santana|[@atomicc2](https://github.com/atomicc2) |
+| Gabriel Jesus|[@gabrieljsantos](https://github.com/gabrieljsantos) |
+| Gabriel Carvalho | [@Gabriel2392](https://github.com/Gabriel2392) |
 
 ---
 
