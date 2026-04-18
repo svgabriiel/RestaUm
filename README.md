@@ -8,7 +8,7 @@
 
 ![Badge Linguagem](https://img.shields.io/badge/Linguagem-C%2FC%2B%2B-blue?style=for-the-badge&logo=c%2B%2B)
 ![Badge Biblioteca](https://img.shields.io/badge/Biblioteca-Raylib-red?style=for-the-badge)
-![Badge Plataforma](https://img.shields.io/badge/Plataforma-Windows-lightgrey?style=for-the-badge&logo=windows)
+![Badge Plataforma](https://img.shields.io/badge/Plataforma-Windows/Linux-lightgrey?style=for-the-badge&logo=windows)
 ![Badge Status](https://img.shields.io/badge/Status-Concluído-brightgreen?style=for-the-badge)
 
 > **Um clássico puzzle de tabuleiro reimaginado em C/C++ com gráficos 2D usando a Raylib.**
