@@ -67,13 +67,13 @@
 ## 🗂️ Estrutura do Projeto
 RestaUm/
 │
-├── main.cpp           # Ponto de entrada do programa
-├── front.cpp          # Lógica de renderização (Raylib)
-├── back.cpp           # Lógica do jogo (regras, movimentos)
-├── dec_front.h        # Declarações do frontend
-├── dec_back.h         # Declarações do backend
-├── JButton.h          # Componente de botão customizado
-├── recordes.txt       # Arquivo de recordes salvos
+|- main.cpp           # Ponto de entrada do programa
+|- front.cpp          # Lógica de renderização (Raylib)
+|- back.cpp           # Lógica do jogo (regras, movimentos)
+|- dec_front.h        # Declarações do frontend
+|- dec_back.h         # Declarações do backend
+|- JButton.h          # Componente de botão customizado
+|- recordes.txt       # Arquivo de recordes salvos
 └── RestaUm.exe        # Executável compilado (Windows)
 
 
