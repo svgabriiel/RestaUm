@@ -1,7 +1,9 @@
 #include "dec_back.h"
 #include "dec_front.h"
+#include "JButton.h"
 
 class Programa{
+    JButton butt;
     public:
     static void rum(){
 

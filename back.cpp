@@ -4,9 +4,6 @@
 #include <iomanip>      
 
 
-
-
-
 void imprimeTabuleiro(Part tabuleiro[TAM][TAM])
 {
     for (int i = 0; i < TAM; i++)
